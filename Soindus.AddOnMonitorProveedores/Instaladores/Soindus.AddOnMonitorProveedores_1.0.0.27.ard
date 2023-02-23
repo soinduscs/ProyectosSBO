@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="Soindus" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="Monitor de Proveedores" ExtVersion="1.0.0.27" Contdata="Soindus Consulting Ltda." Partner="Soindus Consulting Ltda." DBType="Both" ClientType="W">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="" To="" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository>
+      <Properties />
+    </Repository>
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="" AddonSig="">
+        <Installation>
+          <Files />
+        </Installation>
+        <Uninstallation>
+          <Files />
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnMonitorProveedores\bin\x64\Soindus.AddOnMonitorProveedores.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="Microsoft.Web.Services3.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.xml">
+              <Actions />
+            </File>
+            <File FileName="pdf.jpg">
+              <Actions />
+            </File>
+            <File FileName="RestSharp.dll">
+              <Actions />
+            </File>
+            <File FileName="RestSharp.xml">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnMonitorProveedores.b1s">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnMonitorProveedores.exe">
+              <Actions />
+            </File>
+            <File FileName="Soindus.Clases.Comun.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.Clases.DTE.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.Interfaces.ProveedoresDTE.dll">
+              <Actions />
+            </File>
+            <File FileName="soindus.jpg">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="Microsoft.Web.Services3.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.xml">
+              <Actions />
+            </File>
+            <File FileName="pdf.jpg">
+              <Actions />
+            </File>
+            <File FileName="RestSharp.dll">
+              <Actions />
+            </File>
+            <File FileName="RestSharp.xml">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnMonitorProveedores.b1s">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnMonitorProveedores.exe">
+              <Actions />
+            </File>
+            <File FileName="Soindus.Clases.Comun.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.Clases.DTE.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.Interfaces.ProveedoresDTE.dll">
+              <Actions />
+            </File>
+            <File FileName="soindus.jpg">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>

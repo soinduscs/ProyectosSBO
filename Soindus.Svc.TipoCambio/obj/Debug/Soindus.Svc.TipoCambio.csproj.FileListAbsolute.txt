@@ -1,0 +1,13 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Soindus.Svc.TipoCambio.exe.config
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Soindus.Svc.TipoCambio.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Soindus.Svc.TipoCambio.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Soindus.Interfaces.PortadoresTC.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Soindus.Interfaces.PortadoresTC.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\obj\Debug\Soindus.Svc.TipoCambio.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\obj\Debug\Soindus.Svc.TipoCambio.TipoCambioService.resources
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\obj\Debug\Soindus.Svc.TipoCambio.csproj.GenerateResource.Cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\obj\Debug\Soindus.Svc.TipoCambio.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.TipoCambio\obj\Debug\Soindus.Svc.TipoCambio.pdb

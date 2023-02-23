@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04112C50-DCE8-477B-88F2-F8676BEC05DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soindus.AddOnFactoringCob</RootNamespace>
+    <AssemblyName>Soindus.AddOnFactoringCob</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Soindus.AddOnFactoringCob.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EASendMail, Version=7.9.0.1, Culture=neutral, PublicKeyToken=88adb80ecd66540b, processorArchitecture=MSIL">
+      <HintPath>..\packages\EASendMail.7.9.0.1\lib\net45\EASendMail.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="SAPBusinessOneSDK" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Cobranza.cs" />
+    <Compile Include="Clases\Factoring.cs" />
+    <Compile Include="Formularios\frmCobLog.b1f.cs">
+      <DependentUpon>frmCobLog.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmCobSelect.b1f.cs">
+      <DependentUpon>frmCobSelect.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmCobGestion.b1f.cs">
+      <DependentUpon>frmCobGestion.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmFacCuentaSN.b1f.cs">
+      <DependentUpon>frmFacCuentaSN.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmFacList.b1f.cs">
+      <DependentUpon>frmFacList.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmFactoring.b1f.cs">
+      <DependentUpon>frmFactoring.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="SBO\ConsultasSBO.cs" />
+    <Compile Include="SBO\ModeloSBO.cs" />
+    <None Include="Formularios\Form1.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <Compile Include="Clases\ValorValido.cs" />
+    <Compile Include="Comun\FuncionesComunes.cs" />
+    <Compile Include="Formularios\Form1.b1f.cs">
+      <DependentUpon>Form1.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Comun\Mensajes.cs" />
+    <Compile Include="Comun\Message.cs" />
+    <Compile Include="Formularios\frmFacSelect.b1f.cs">
+      <DependentUpon>frmFacSelect.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="SBO\ConexionSBO.cs" />
+    <Compile Include="SBO\EstructuraSBO.cs" />
+    <Compile Include="SBO\EventosSBO.cs" />
+    <Compile Include="SBO\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Formularios\frmCobLog.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmCobSelect.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmCobGestion.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmFacCuentaSN.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmFacList.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmFacSelect.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmFactoring.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="soindus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Local\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

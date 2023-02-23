@@ -1,0 +1,69 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\bin\x64\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\bin\x64\pdf.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnEmisionDTE\Soindus.AddOnEmisionDTE\bin\x64\soindus.jpg
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\pdf.jpg
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\soindus.jpg
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe.config
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.pdb
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Microsoft.Web.Services3.dll
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Newtonsoft.Json.dll
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Newtonsoft.Json.xml
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Desktop\Soindus\El Volcan\Desarrollo\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.pdb
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\pdf.jpg
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\soindus.jpg
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.AddOnEmisionDTE.exe.config
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.AddOnEmisionDTE.exe
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.AddOnEmisionDTE.pdb
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Microsoft.Web.Services3.dll
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Newtonsoft.Json.dll
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\SAPBusinessOneSDK.dll
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Newtonsoft.Json.xml
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\pdf.jpg
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\soindus.jpg
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe.config
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.pdb
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Microsoft.Web.Services3.dll
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Newtonsoft.Json.dll
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\SAPBusinessOneSDK.dll
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Newtonsoft.Json.xml
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.exe
+C:\Users\dbnet01\Documents\Visual Studio 2015\Projects\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\pdf.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\soindus.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.AddOnEmisionDTE.exe.config
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.AddOnEmisionDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Microsoft.Web.Services3.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.Interfaces.ProveedoresDTE.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\RestSharp.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Soindus.Interfaces.ProveedoresDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x86\RestSharp.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\pdf.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\soindus.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe.config
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.AddOnEmisionDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Microsoft.Web.Services3.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.Interfaces.ProveedoresDTE.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\RestSharp.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Soindus.Interfaces.ProveedoresDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\bin\x64\RestSharp.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnEmisionDTE\obj\Debug\Soindus.AddOnEmisionDTE.pdb

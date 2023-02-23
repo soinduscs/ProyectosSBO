@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5606E7EF-24DD-4C61-8E1A-701BEF7A77D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soindus.AddOnTipoCambio</RootNamespace>
+    <AssemblyName>Soindus.AddOnTipoCambio</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Soindus.AddOnTipoCambio.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="SAPBusinessOneSDK" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Formularios\Form1.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <Compile Include="BCC\TCResponse.cs" />
+    <Compile Include="Clases\TipoCambiario.cs" />
+    <Compile Include="Formularios\frmConfTC.b1f.cs">
+      <DependentUpon>frmConfTC.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmTipoCambio.b1f.cs">
+      <DependentUpon>frmTipoCambio.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Local\Configuracion.cs" />
+    <Compile Include="Local\FuncionesComunes.cs" />
+    <Compile Include="Local\Mensajes.cs" />
+    <Compile Include="Formularios\Form1.b1f.cs">
+      <DependentUpon>Form1.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Local\Message.cs" />
+    <Compile Include="Local\ValorValido.cs" />
+    <Compile Include="PortadorTC\PortadorTC.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="SBO\ConexionSBO.cs" />
+    <Compile Include="SBO\ConsultasSBO.cs" />
+    <Compile Include="SBO\EstructuraSBO.cs" />
+    <Compile Include="SBO\EventosSBO.cs" />
+    <Compile Include="SBO\IntegracionSBO.cs" />
+    <Compile Include="SBO\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Formularios\frmConfTC.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmTipoCambio.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="soindus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Soindus.Interfaces.PortadoresTC\Soindus.Interfaces.PortadoresTC.csproj">
+      <Project>{46049126-1abe-4e3c-89ea-5e02b3151dd6}</Project>
+      <Name>Soindus.Interfaces.PortadoresTC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

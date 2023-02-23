@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7020529-BBE9-4C9C-8F76-949567AEAD03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soindus.AddOnMonitorEmision</RootNamespace>
+    <AssemblyName>Soindus.AddOnMonitorEmision</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Soindus.AddOnMonitorEmision.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Services3.3.0.0.0\lib\net20\Microsoft.Web.Services3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.6.10.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.6.10\lib\net452\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="SAPBusinessOneSDK" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBNet\XML_ConsultaEstado.cs" />
+    <Compile Include="DBNet\XML_Design.cs" />
+    <Compile Include="DBNet\XML_Responses.cs" />
+    <Compile Include="Febos\DTEResponse.cs" />
+    <Compile Include="Formularios\frmXMonConf.b1f.cs">
+      <DependentUpon>frmXMonConf.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Local\Configuracion.cs" />
+    <Compile Include="Local\FuncionesComunes.cs" />
+    <Compile Include="Local\Message.cs" />
+    <Compile Include="Local\Mensajes.cs" />
+    <Compile Include="Formularios\frmXMonitor.b1f.cs">
+      <DependentUpon>frmXMonitor.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Local\ValorValido.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProveedorDTE\ProveedorDTE.cs" />
+    <Compile Include="SBO\ConexionSBO.cs" />
+    <Compile Include="SBO\ConsultasSBO.cs" />
+    <Compile Include="SBO\EstructuraSBO.cs" />
+    <Compile Include="SBO\EventosSBO.cs" />
+    <Compile Include="SBO\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pdf.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="soindus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Formularios\frmXMonConf.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmXMonitor.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Soindus.Clases.Comun\Soindus.Clases.Comun.csproj">
+      <Project>{3cdded12-7c28-46d7-8d29-5cee85d70a9a}</Project>
+      <Name>Soindus.Clases.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Soindus.Clases.DTE\Soindus.Clases.DTE.csproj">
+      <Project>{5d7e94c7-6e8e-4f99-9749-bd4fc2302da1}</Project>
+      <Name>Soindus.Clases.DTE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Soindus.Interfaces.ProveedoresDTE\Soindus.Interfaces.ProveedoresDTE.csproj">
+      <Project>{e7ebaddb-5022-4524-b1fb-8005bcd77c5b}</Project>
+      <Name>Soindus.Interfaces.ProveedoresDTE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

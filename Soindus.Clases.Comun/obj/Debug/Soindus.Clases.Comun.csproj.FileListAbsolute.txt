@@ -1,0 +1,5 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.Comun\bin\x64\Soindus.Clases.Comun.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.Comun\bin\x64\Soindus.Clases.Comun.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.Comun\obj\Debug\Soindus.Clases.Comun.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.Comun\obj\Debug\Soindus.Clases.Comun.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.Comun\obj\Debug\Soindus.Clases.Comun.pdb

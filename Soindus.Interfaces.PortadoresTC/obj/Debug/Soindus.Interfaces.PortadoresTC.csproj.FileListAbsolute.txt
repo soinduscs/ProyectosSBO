@@ -1,0 +1,6 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.PortadoresTC\bin\Debug\Soindus.Interfaces.PortadoresTC.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.PortadoresTC\bin\Debug\Soindus.Interfaces.PortadoresTC.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.PortadoresTC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.PortadoresTC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.PortadoresTC\obj\Debug\Soindus.Interfaces.PortadoresTC.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.PortadoresTC\obj\Debug\Soindus.Interfaces.PortadoresTC.pdb

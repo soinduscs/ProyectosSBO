@@ -1,0 +1,16 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Soindus.Svc.Base64DTE.exe.config
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Soindus.Svc.Base64DTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Soindus.Svc.Base64DTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Microsoft.Web.Services3.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Soindus.Interfaces.ProveedoresDTE.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\RestSharp.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Soindus.Interfaces.ProveedoresDTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\bin\Debug\RestSharp.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\obj\Debug\Soindus.Svc.Base64DTE.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\obj\Debug\Soindus.Svc.Base64DTE.Base64DTEService.resources
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\obj\Debug\Soindus.Svc.Base64DTE.csproj.GenerateResource.Cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\obj\Debug\Soindus.Svc.Base64DTE.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Svc.Base64DTE\obj\Debug\Soindus.Svc.Base64DTE.pdb

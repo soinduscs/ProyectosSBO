@@ -1,0 +1,11 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\pdf.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\soindus.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\Soindus.AddOnMonitorProveedores.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\Soindus.AddOnMonitorProveedores.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\RestSharp.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\bin\x64\RestSharp.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\obj\x64\Release\Soindus.AddOnMonitorProveedores.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.AddOnMonitorProveedores\Soindus.AddOnMonitorProveedores\obj\x64\Release\Soindus.AddOnMonitorProveedores.pdb
