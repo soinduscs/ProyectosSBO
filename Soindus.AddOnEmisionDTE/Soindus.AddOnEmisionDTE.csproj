@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B43BFCFC-EAAB-4DCB-A6F4-2FABD34C016B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soindus.AddOnEmisionDTE</RootNamespace>
+    <AssemblyName>Soindus.AddOnEmisionDTE</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Soindus.AddOnEmisionDTE.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Services3.3.0.0.0\lib\net20\Microsoft.Web.Services3.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBNet0\XML_Boleta.cs" />
+    <Compile Include="DBNet0\XML_BoletaEx.cs" />
+    <Compile Include="DBNet0\XML_BoletaRes.cs" />
+    <Compile Include="DBNet0\XML_Design.cs" />
+    <Compile Include="DBNet0\XML_Emision.cs" />
+    <Compile Include="DBNet0\XML_Entrega.cs" />
+    <Compile Include="DBNet0\XML_Factura.cs" />
+    <Compile Include="DBNet0\XML_FacturaEx.cs" />
+    <Compile Include="DBNet0\XML_FacturaExport.cs" />
+    <Compile Include="DBNet0\XML_FacturaRes.cs" />
+    <Compile Include="DBNet0\XML_NotaCredito.cs" />
+    <Compile Include="DBNet0\XML_NotaCreditoExport.cs" />
+    <Compile Include="DBNet0\XML_NotaDebito.cs" />
+    <Compile Include="DBNet0\XML_NotaDebitoExport.cs" />
+    <Compile Include="DBNet0\XML_PDF.cs" />
+    <Compile Include="DBNet0\XML_Traslado.cs" />
+    <Compile Include="DBNetEC\XML_Design.cs" />
+    <Compile Include="DBNetEC\XML_Emision.cs" />
+    <Compile Include="DBNetEC\XML_Factura.cs" />
+    <Compile Include="DBNetEC\XML_FacturaEx.cs" />
+    <Compile Include="DBNetEC\XML_NotaCredito.cs" />
+    <Compile Include="DBNetEC\XML_NotaDebito.cs" />
+    <Compile Include="DBNetEC\XML_PDF.cs" />
+    <Compile Include="DBNet\XML_Boleta.cs" />
+    <Compile Include="DBNet\XML_BoletaEx.cs" />
+    <Compile Include="DBNet\XML_BoletaRes.cs" />
+    <Compile Include="DBNet\XML_Design.cs" />
+    <Compile Include="DBNet\XML_Emision.cs" />
+    <Compile Include="DBNet\XML_Entrega.cs" />
+    <Compile Include="DBNet\XML_Factura.cs" />
+    <Compile Include="DBNet\XML_FacturaEx.cs" />
+    <Compile Include="DBNet\XML_FacturaExport.cs" />
+    <Compile Include="DBNet\XML_FacturaRes.cs" />
+    <Compile Include="DBNet\XML_NotaCredito.cs" />
+    <Compile Include="DBNet\XML_NotaCreditoExport.cs" />
+    <Compile Include="DBNet\XML_NotaDebito.cs" />
+    <Compile Include="DBNet\XML_NotaDebitoExport.cs" />
+    <Compile Include="DBNet\XML_PDF.cs" />
+    <Compile Include="DBNet\XML_Responses.cs" />
+    <Compile Include="DBNet\XML_Traslado.cs" />
+    <Compile Include="Formularios\F133.cs" />
+    <Compile Include="Formularios\F140.cs" />
+    <Compile Include="Formularios\F179.cs" />
+    <Compile Include="Formularios\F60091.cs" />
+    <Compile Include="Formularios\F65302.cs" />
+    <Compile Include="Formularios\F65303.cs" />
+    <Compile Include="Formularios\F65304.cs" />
+    <Compile Include="Formularios\F65305.cs" />
+    <Compile Include="Formularios\F65307.cs" />
+    <Compile Include="Formularios\F940.cs" />
+    <Compile Include="Formularios\frmGeneradorDTE.b1f.cs">
+      <DependentUpon>frmGeneradorDTE.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Local\Configuracion.cs" />
+    <Compile Include="Local\FuncionesComunes.cs" />
+    <Compile Include="Local\Message.cs" />
+    <Compile Include="Local\Mensajes.cs" />
+    <Compile Include="Formularios\Form1.b1f.cs">
+      <DependentUpon>Form1.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Local\Respuestas.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProveedorDTE\ProveedorDTE.cs" />
+    <Compile Include="SBO\ConsultasSBO.cs" />
+    <Compile Include="SBO\EstructuraSBO.cs" />
+    <Compile Include="SBO\EventosSBO.cs" />
+    <Compile Include="SBO\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SBO\ConexionSBO.cs" />
+    <Compile Include="Local\ValorValido.cs" />
+    <Compile Include="SoindusFE\Generics.cs" />
+    <Compile Include="SoindusFE\objDatos.cs" />
+    <Compile Include="SoindusFE\XML_Boleta.cs" />
+    <Compile Include="SoindusFE\XML_BoletaEx.cs" />
+    <Compile Include="SoindusFE\XML_Design.cs" />
+    <Compile Include="SoindusFE\XML_Emision.cs" />
+    <Compile Include="SoindusFE\XML_Entrega.cs" />
+    <Compile Include="SoindusFE\XML_Factura.cs" />
+    <Compile Include="SoindusFE\XML_FacturaEx.cs" />
+    <Compile Include="SoindusFE\XML_FacturaExport.cs" />
+    <Compile Include="SoindusFE\XML_NotaCredito.cs" />
+    <Compile Include="SoindusFE\XML_NotaCreditoExport.cs" />
+    <Compile Include="SoindusFE\XML_NotaDebito.cs" />
+    <Compile Include="SoindusFE\XML_NotaDebitoExport.cs" />
+    <Compile Include="SoindusFE\XML_RecuperarPDF.cs" />
+    <Compile Include="SoindusFE\XML_Responses.cs" />
+    <Compile Include="SoindusFE\XML_Taslado.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Formularios\Form1.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmGeneradorDTE.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pdf.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="soindus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Soindus.Interfaces.ProveedoresDTE\Soindus.Interfaces.ProveedoresDTE.csproj">
+      <Project>{e7ebaddb-5022-4524-b1fb-8005bcd77c5b}</Project>
+      <Name>Soindus.Interfaces.ProveedoresDTE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

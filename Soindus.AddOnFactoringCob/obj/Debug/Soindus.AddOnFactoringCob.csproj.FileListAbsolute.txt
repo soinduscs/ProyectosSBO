@@ -1,0 +1,8 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\bin\x64\soindus.jpg
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\bin\x64\Soindus.AddOnFactoringCob.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\bin\x64\Soindus.AddOnFactoringCob.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\bin\x64\EASendMail.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\bin\x64\SAPBusinessOneSDK.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\obj\Debug\Soindus.AddOnFactoringCob.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\obj\Debug\Soindus.AddOnFactoringCob.exe
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\obj\Debug\Soindus.AddOnFactoringCob.pdb

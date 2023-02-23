@@ -1,0 +1,7 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\bin\x64\Soindus.Clases.DTE.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\bin\x64\Soindus.Clases.DTE.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\bin\x64\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\bin\x64\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\obj\Debug\Soindus.Clases.DTE.csprojResolveAssemblyReference.cache
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\obj\Debug\Soindus.Clases.DTE.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Clases.DTE\obj\Debug\Soindus.Clases.DTE.pdb

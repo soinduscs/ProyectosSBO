@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="Soindus" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="AddOn Factoring y Cobranza" ExtVersion="1.0.0.2" Contdata="Soindus Consulting SpA." Partner="Soindus Consulting SpA." DBType="MSSQL" ClientType="W">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="" To="" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository>
+      <Properties />
+    </Repository>
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="" AddonSig="">
+        <Installation>
+          <Files />
+        </Installation>
+        <Uninstallation>
+          <Files />
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.AddOnFactoringCob\bin\x64\Soindus.AddOnFactoringCob.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnFactoringCob.b1s">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnFactoringCob.exe">
+              <Actions />
+            </File>
+            <File FileName="soindus.jpg">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnFactoringCob.b1s">
+              <Actions />
+            </File>
+            <File FileName="Soindus.AddOnFactoringCob.exe">
+              <Actions />
+            </File>
+            <File FileName="soindus.jpg">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>

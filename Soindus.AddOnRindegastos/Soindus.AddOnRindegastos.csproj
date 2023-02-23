@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9327A4FD-27BC-4950-90E4-0852661635EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soindus.AddOnRindegastos</RootNamespace>
+    <AssemblyName>Soindus.AddOnRindegastos</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Soindus.AddOnRindegastos.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ebcSoft\Software\SAP\SAP_DLL_93\SAPBusinessOneSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Configuracion.cs" />
+    <Compile Include="Clases\Gastos.cs" />
+    <Compile Include="Clases\Message.cs" />
+    <Compile Include="Clases\Rendiciones.cs" />
+    <Compile Include="Clases\ResponseExpenseReports.cs" />
+    <Compile Include="Clases\ResponseExpenses.cs" />
+    <Compile Include="Clases\ResponseFunds.cs" />
+    <Compile Include="Clases\ResponseUsers.cs" />
+    <Compile Include="Clases\ValorValido.cs" />
+    <Compile Include="Comun\FuncionesComunes.cs" />
+    <Compile Include="Comun\Mensajes.cs" />
+    <Compile Include="Formularios\frmMonConfRG.b1f.cs">
+      <DependentUpon>frmMonConfRG.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMonitorRG.b1f.cs">
+      <DependentUpon>frmMonitorRG.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Rindegastos\InterfazRG.cs" />
+    <Compile Include="SBO\ConexionSBO.cs" />
+    <Compile Include="SBO\ConsultasSBO.cs" />
+    <Compile Include="SBO\EventosSBO.cs" />
+    <Compile Include="SBO\IntegracionSBO.cs" />
+    <Compile Include="SBO\ModeloSBO.cs" />
+    <None Include="app.config" />
+    <None Include="Form1.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <Compile Include="Form1.b1f.cs">
+      <DependentUpon>Form1.b1f</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="SBO\EstructuraSBO.cs" />
+    <Compile Include="SBO\Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Formularios\frmMonConfRG.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="Formularios\frmMonitorRG.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Soindus.Interfaces.Rindegastos\Soindus.Interfaces.Rindegastos.csproj">
+      <Project>{14f6302e-5048-4e33-b397-89f5804c454f}</Project>
+      <Name>Soindus.Interfaces.Rindegastos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="soindus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

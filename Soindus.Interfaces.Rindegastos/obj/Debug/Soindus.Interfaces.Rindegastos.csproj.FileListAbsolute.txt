@@ -1,0 +1,14 @@
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x86\Soindus.Interfaces.Rindegastos.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x86\Soindus.Interfaces.Rindegastos.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x86\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x86\RestSharp.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x86\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x86\RestSharp.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x64\Soindus.Interfaces.Rindegastos.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x64\Soindus.Interfaces.Rindegastos.pdb
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x64\Newtonsoft.Json.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x64\RestSharp.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x64\Newtonsoft.Json.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\bin\x64\RestSharp.xml
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\obj\Debug\Soindus.Interfaces.Rindegastos.dll
+C:\Users\EBUENO\Documents\Visual Studio 2015\Projects\Soindus\Soindus.Soluciones\Soindus.Interfaces.Rindegastos\obj\Debug\Soindus.Interfaces.Rindegastos.pdb
